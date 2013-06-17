@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "KVOHelper"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Make ios Key-Value Observing programming easier."
   # s.description  = <<-DESC
   #                   An optional longer description of KVOHelper
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "https://github.com/zhangchiqing/KVOHelper.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/zhangchiqing/KVOHelper.git", :tag => "1.0.0" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
