@@ -8,7 +8,7 @@
 #import "KVOHelper.h"
 #import <objc/runtime.h>
 
-@implementation Mixins
+@implementation KVOHelper
 
 + (void)mixinHandlerToKVOContextForClass:(Class)cls {
     SEL method = @selector(observeValueForKeyPath:ofObject:change:context:);
