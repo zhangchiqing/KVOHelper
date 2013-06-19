@@ -16,7 +16,7 @@ pod 'KVOHelper', '~> 1.0.0'
     if (self = [super init]) {
         [KVOHelper mixinHandlerToKVOContextForClass:self.class];
 
-        [self.account addObserver:self forKeyPath:@"name" options:0 context:@selector(onAccountNameChanged:)];
+        [self.account addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:@selector(onAccountNameChanged:)];
 
         self.account.name = @"My Account"; // this will trigger onAccountNameChanged:
     }
