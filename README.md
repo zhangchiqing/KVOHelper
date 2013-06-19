@@ -6,7 +6,7 @@ Make iOS Key-Value Observing programming easier
 ##Usage
 
 ```
-pod 'KVOHelper', '~> 1.0.0'
+pod 'KVOHelper'
 ```
 
 ``` objective-c
