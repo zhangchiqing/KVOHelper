@@ -3,7 +3,11 @@ KVOHelper
 
 Make iOS Key-Value Observing programming easier
 
-## How to use KVOHelper?
+##Usage
+
+```
+pod 'KVOHelper', '~> 1.0.0'
+```
 
 ``` objective-c
 #import "KVOHelper.h"
